@@ -10,3 +10,4 @@ minio/minio
 
 --platform=linux/arm64 fatedier/frpc:v0.61.2
 rancher/helm-controller:v0.16.10
+mysql:latest
