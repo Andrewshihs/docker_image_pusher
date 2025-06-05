@@ -14,3 +14,4 @@ mysql:latest
 --platform=linux/arm64 bitnami/apache:2.4.62-debian-12-r13
 rancher/klipper-helm:v0.9.5-build20250306
 mysql:5.7
+--platform=linux/arm64 registry-1.docker.io/distribution/registry:3.0
