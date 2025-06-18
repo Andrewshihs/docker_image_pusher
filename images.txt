@@ -15,3 +15,4 @@ mysql:latest
 rancher/klipper-helm:v0.9.5-build20250306
 mysql:5.7
 --platform=linux/arm64 registry-1.docker.io/distribution/registry:3.0
+vllm/vllm-openai:v0.8.5
