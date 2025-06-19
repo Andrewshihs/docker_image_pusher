@@ -4,16 +4,16 @@
 #xhofe/alist:latest
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
-minio/minio
---platform=linux/arm64 registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.5.2@sha256:e8825994b7a2c7497375a9b945f386506ca6a3eda80b89b74ef2db743f66a5ea
---platform=linux/arm64 registry.k8s.io/ingress-nginx/controller:v1.12.1@sha256:d2fbc4ec70d8aa2050dd91a91506e998765e86c96f32cffb56c503c9c34eed5b
+#minio/minio
+#--platform=linux/arm64 registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.5.2@sha256:e8825994b7a2c7497375a9b945f386506ca6a3eda80b89b74ef2db743f66a5ea
+#--platform=linux/arm64 registry.k8s.io/ingress-nginx/controller:v1.12.1@sha256:d2fbc4ec70d8aa2050dd91a91506e998765e86c96f32cffb56c503c9c34eed5b
 
---platform=linux/arm64 fatedier/frpc:v0.61.2
-rancher/helm-controller:v0.16.10
-mysql:latest
---platform=linux/arm64 bitnami/apache:2.4.62-debian-12-r13
-rancher/klipper-helm:v0.9.5-build20250306
-mysql:5.7
---platform=linux/arm64 registry-1.docker.io/distribution/registry:3.0
-vllm/vllm-openai:v0.8.5
+#--platform=linux/arm64 fatedier/frpc:v0.61.2
+#rancher/helm-controller:v0.16.10
+#mysql:latest
+#--platform=linux/arm64 bitnami/apache:2.4.62-debian-12-r13
+#rancher/klipper-helm:v0.9.5-build20250306
+#mysql:5.7
+#--platform=linux/arm64 registry-1.docker.io/distribution/registry:3.0
+#vllm/vllm-openai:v0.8.5
 rayproject/ray:2.41.0
