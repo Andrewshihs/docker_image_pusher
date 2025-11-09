@@ -17,4 +17,5 @@
 #--platform=linux/arm64 registry-1.docker.io/distribution/registry:3.0
 #vllm/vllm-openai:v0.8.5
 #rayproject/ray:2.41.0
-httpd:2
+#httpd:2
+ddsderek/wxchat:latest
