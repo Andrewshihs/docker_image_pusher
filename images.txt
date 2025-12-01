@@ -19,4 +19,5 @@
 #rayproject/ray:2.41.0
 #httpd:2
 #ddsderek/wxchat:latest
-fatedier/frps:v0.61.2
+#fatedier/frps:v0.61.2
+dreamacro/clash-premium
